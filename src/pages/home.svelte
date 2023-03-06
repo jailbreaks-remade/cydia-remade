@@ -28,6 +28,33 @@
       </ListItem>
     </List>
   </div>
+
+  <div style="margin-top: -24px;">
+    <List>
+      <ListItem style="background: #EEFEEF;" title="Manage Account" link="#">
+        <img slot="media" src="https://test.cydiafree.com/images/brFmzU3TugE.jpg" width="30" />
+      </ListItem>
+    </List>
+  </div>
+
+  <div style="margin-top: -24px;">
+    <List>
+      <ListItem title="Upgrading & Jailbreak Help" link="#"></ListItem>
+      <ListItem title="Find Extensions for Applications" link="#"></ListItem>
+      <ListItem title="More Package Sources" link="#"></ListItem>
+      <ListItem title="Jade Ios" link="#"></ListItem>
+    </List>
+  </div>
+
+  <div style="margin-top: -24px;">
+    <BlockHeader>USER GUIDES</BlockHeader>
+    <List>
+      <ListItem title="Frequently Asked Questions" link="#"></ListItem>
+      <ListItem title="Copying Files to/from Devices" link="#"></ListItem>
+      <ListItem title="Storage Information" link="#"></ListItem>
+      <ListItem title="Jailbreaks Remade Organization" link="#"></ListItem>
+    </List>
+  </div>
 </Page>
 <script>
   export let f7router;
@@ -48,7 +75,8 @@
     Row,
     Col,
     Button,
-    f7
+    f7,
+    BlockHeader
   } from 'framework7-svelte';
 
   import ListLinksOne from '../components/micros/ListLinksOne.svelte';
