@@ -1,8 +1,8 @@
 {
-  "name": "topaz",
+  "name": "cydia",
   "private": true,
   "version": "1.0.0",
-  "description": "Topaz",
+  "description": "cydia",
   "repository": "",
   "license": "UNLICENSED",
   "scripts": {
